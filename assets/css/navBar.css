@@ -1,0 +1,25 @@
+.nav-container {
+    background-color: #FEF7E2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.constainer-list {
+    border: 1px solid black;
+    display: flex;
+}
+
+.list {
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link {
+    background-color:#FFDF7F;
+    border-radius: 20px;
+}
