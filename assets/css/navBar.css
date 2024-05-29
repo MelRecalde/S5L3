@@ -1,25 +1,32 @@
-.nav-container {
-    background-color: #FEF7E2;
-    display: flex;
-    justify-content: space-between;
-}
 
-.d-flex {
-    display: flex;
-}
-
-.constainer-list {
-    border: 1px solid black;
-    display: flex;
+.navBar {
+    background-color:  #FEF7E2;
+    padding: 2%;
 }
 
 .list {
-    border: 1px solid;
     display: flex;
-    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    gap: 10px;
 }
 
 .link {
-    background-color:#FFDF7F;
-    border-radius: 20px;
+    background-color: #FFDF7F;
+    display: flex;
+    align-items: center;
+    padding: 2%;
+    gap: 10px;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
 }
+
+.shop {
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+

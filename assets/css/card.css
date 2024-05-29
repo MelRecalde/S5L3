@@ -1,34 +1,31 @@
-#cards {
-    background-color: #FEF7E2;
-    width: 35%;
-    margin: 5%;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #752305;
-}
 
 #card-container {
-    width: 300px;
-    
+    background-color: #FEF7E2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    color: #752305;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    /*border: 1px solid;*/
 }
 
 .card-elements {
-    border: 1px solid #752305;
-    width: 400px;
-    height: 380px;
-    border-radius: 50px;
+    /*border: 1px solid #752305;*/
+    border-radius: 30px;
 }
 
 .card-elements img {
-    width: 400px;
-    border-top-left-radius:50px;
-    border-top-right-radius:50px;
-    margin-bottom: 3%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-bottom: 5%;
 }
 
 #card {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    gap: 2px;
 }
 
 .description {
@@ -40,7 +37,7 @@
 
 #card .price {
     /*border: 1px solid;*/
-    font-size: large;
+    font-size: small;
     padding-top: 2.5%;
 }
 
@@ -49,6 +46,7 @@
     /*border: 1px solid;*/
     margin-top: 10px;
     justify-content: center;
+    padding: 10px;
 }
 
 .btn button {
@@ -57,11 +55,13 @@
     color: inherit;
     font-weight: bolder;
     border-radius: 20px;
-    padding: 10px 60px;
+    padding: 10px 15px;
+    margin-bottom: 5px;
+    cursor: pointer;
 }
 
 h3 {
-    font-weight: bolder;
-    font-size: x-large;
-    color: #752305; 
+    font-weight: 800;
+    font: size 20px;
+    color: #752305;
 }
